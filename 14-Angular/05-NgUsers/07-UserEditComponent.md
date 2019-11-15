@@ -100,7 +100,7 @@ export class UserEditComponent implements OnInit {
 }
 ```
 
-*user-view/user-edit.component.html*
+*user-edit.component.html*
 ```html
 <h1 *ngIf="user">Edit {{user.first_name}} {{user.last_name}}</h1>
 

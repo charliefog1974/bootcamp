@@ -32,7 +32,7 @@ git commit -a
 
 Since we are creating a user we will want to work with NgForms. Import the FormsModule into AppModule then import NgForm into the user-create component.
 
-*app.module.js*
+*app.module.ts*
 
 ```js
 ...

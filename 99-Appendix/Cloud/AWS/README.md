@@ -270,7 +270,7 @@ A bucket is a flat container of objects and doesn't provide hierarchical organiz
 
 [https://aws.amazon.com/rds/?nc2=h_m1](https://aws.amazon.com/rds/?nc2=h_m1)
 
-Rational Database Service for MySQL, PostgreeSQL, MariaDB, Oracle BYOL or SQL Server. Amazon Free Tier includes 750 Hours of RDS usage per month of db.t2.micro database usage. RDS Free Tier allows up to 20GB of storage.
+Relational Database Service for MySQL, PostgreeSQL, MariaDB, Oracle BYOL or SQL Server. Amazon Free Tier includes 750 Hours of RDS usage per month of db.t2.micro database usage. RDS Free Tier allows up to 20GB of storage.
 
 ## DynamoDB
 

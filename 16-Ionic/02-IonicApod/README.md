@@ -275,7 +275,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ApodPage } from './apod.page';
+import { ApodPage } from './apod./apod.page';
 
 import { SafePipeModule } from 'safe-pipe';
 

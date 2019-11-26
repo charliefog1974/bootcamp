@@ -2,7 +2,14 @@
 
 For this lesson, we will run a CLI program called *ionic*. The ionic command 
 wraps Angular's ```ng``` command with additional functionality. Ionic runs on 
-top of the AngularCLI.   
+top of the AngularCLI. 
+
+Install ionic.
+
+```sh
+sudo npm install -g ionic
+```
+Start ionic.
 
 ```sh
 cd ~

@@ -63,7 +63,7 @@ trim_trailing_whitespace = false
 Now that our IDE has been configured let start building the app by defining the 
 Apod object.
 
-*src/app/apod.model.ts*
+*src/app/apod.module.ts*
 ```js
 export class Apod {
   copyright:string;

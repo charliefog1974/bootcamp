@@ -130,7 +130,7 @@ ionic generate page users
 ```
 
 Once we have added the users page we will want to import `LocationStrategy` and
-`HasLocationStrategy` from `@angular/common` and add them to your providers list
+`HashLocationStrategy` from `@angular/common` and add them to your providers list
 as `{ provide: LocationStrategy, useClass: HashLocationStrategy }`.
 
 #### Test the Functionality

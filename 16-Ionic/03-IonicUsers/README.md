@@ -138,6 +138,7 @@ as `{ provide: LocationStrategy, useClass: HashLocationStrategy }`.
 * Update your production build path.
 * Add `/ionicUsers` to your whitelist's list of subs.
 * Toggle the whitelist on and off depending on you environnement.
+(instructions to follow)
 
 ##### Testing in Production
 

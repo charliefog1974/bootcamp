@@ -23,7 +23,7 @@ Term used for allowing convenient, on-demand access from anywhere, to computing 
 - Metering
 
 
-These includes servers, storage, networking, applications and services. That can be easy revised and released.
+These includes servers, storage, networking, applications and services. That can be easily revised and released.
 
 
 ### Software as a Service

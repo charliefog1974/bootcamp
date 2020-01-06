@@ -81,9 +81,10 @@ EC2 web service interface provides you with complete control of your computing r
 7. Add Tags - Add a name tag and value.
 8. Configure Security Group - *Create a new security group and add rule with the types SSH, HTTP, HTTPS, and Custom port 3000.*
 9. Review Instance Launch.
-10. Configure and [Elastic IP](https://aws.amazon.com/premiumsupport/knowledge-center/intro-elastic-ip-addresses/) 
+10. Configure an [Elastic IP](https://aws.amazon.com/premiumsupport/knowledge-center/intro-elastic-ip-addresses/) 
 11. Create a new key pair - *This is the only time you can download the key file*.
 12. Launch Instance
+13. Go into Elastic IP's and associate yours with your instance (if you don't, you will be charged by AWS).
 
 #### Accessing server instance from terminal
 

@@ -63,6 +63,7 @@ Now let's take a close look at the code. Initializing your variables is a [good 
 //Initialize your variables
 var label = null;
 var color = null;
+var GET = {};
 ```
 
 JavaScript does not have a ```$_GET``` super global like PHP so we will build one by parsing out the URL

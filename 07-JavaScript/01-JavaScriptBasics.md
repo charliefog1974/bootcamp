@@ -95,7 +95,7 @@ As in the previous example, we are adding _7_ to _35_, only this time we have ad
 > JavaScript is loosely typed, meaning it will try to resolve the data type into something that makes sense to a given problem. Since, in this case, we are adding a number to a string the JavaScript interpreter will conclude (since a number can always fit into a string, but a string cannot always fit into a number) that we are attempting to concatenate two strings rather than add two numbers which will result in a value of _357_.
 
 ### Exercise 2 - Write to the page
-For this exercise, we want to create a new file. The markup in *console.html* suites out needs. Rather than create a new file we can reuse *console.html* and make some changes to the  code.
+For this exercise, we want to create a new file. The markup in *console.html* suits out needs. Rather than create a new file we can reuse *console.html* and make some changes to the  code.
 
 * Duplicate ```/var/www/mtbc/js/console.html``` to ```/var/www/mtbc/js/write.html```.
 * Add an element of type ```div``` to the body of the HTML document. 

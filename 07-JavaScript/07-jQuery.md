@@ -410,7 +410,7 @@ In our current implementation we are asking a lot of out _init()_ method.
 
 My original intent for the ```init()``` method was to build the page ```onload```. It's sole-responsibility then should be to call the methods required to make that happen.
 
-Straight away I see at least to new methods that get my object closer to SRP.
+Straight away I see at least two new methods that get my object closer to SRP.
 * ```buildDOM()```
 * ```getRequest()```
 

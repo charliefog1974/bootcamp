@@ -410,7 +410,7 @@ In our current implementation we are asking a lot of out _init()_ method.
 
 My original intent for the ```init()``` method was to build the page ```onload```. It's sole-responsibility then should be to call the methods required to make that happen.
 
-Straight away I see at least to new methods that get my object closer to SRP.
+Straight away I see at least two new methods that get my object closer to SRP.
 * ```buildDOM()```
 * ```getRequest()```
 
@@ -452,7 +452,7 @@ init: function() {
 },
 ```
 
-This may cause my execution to change as follows. You could also call ```apod.getRequest()``` on page load or call ```apod.init()``` on a mouse click. This is a simple example, so the existence od an ```init()``` method may make a little less sense. In more complex examples, the page load would likely have different responsibilities than the click event. In this case, one might argue that calling a set of responsibilities in an ```init()``` method violates SRP and that these methods should be called individually in a script; I would not argue this point. At some point, you have to make a decision and go with it.
+This may cause my execution to change as follows. You could also call ```apod.getRequest()``` on page load or call ```apod.init()``` on a mouse click. This is a simple example, so the existence of an ```init()``` method may make a little less sense. In more complex examples, the page load would likely have different responsibilities than the click event. In this case, one might argue that calling a set of responsibilities in an ```init()``` method violates SRP and that these methods should be called individually in a script; I would not argue this point. At some point, you have to make a decision and go with it.
 
 ```js
 apod.init();

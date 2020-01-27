@@ -71,7 +71,7 @@ _insert()_ is a method of the collection object, this inserts a record into a ta
 _users_ this is the collection upon which collection methods are called. If a collection does not exist, calling insert against the collection will create the collection.
 
 
-Now if run you ```sh show databases``` you will see _cms_ in the list. Next, you will want to look up your list of collections.
+Now if run you ```show databases``` you will see _cms_ in the list. Next, you will want to look up your list of collections.
 
 ```sh
 show collections

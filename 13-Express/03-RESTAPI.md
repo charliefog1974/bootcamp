@@ -476,7 +476,7 @@ git push origin master
 
 ### Auto Update the Modified Date When a Document is Saved
 
-[</> code](https://github.com/microtrain/mean.example.com/commit/51ec33a5666ac84e52586e82c1556f8e1204c53c) Modifying an existing user shall automatically update the modified date.
+[</> code](https://github.com/microtrain/mean.example.com/commit/51ec33a5666ac84e52586e82c1556f8e1204c53c) ***this is the wrong code*** Modifying an existing user shall automatically update the modified date.
 
 *models/users.js*
 ```js
